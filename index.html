@@ -1,10 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Embers: Dark Fantasy Games Library</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header id="top-banner" class="header-section">
+    <div class="container">
+      <h1 class="site-title">Embers — Dark Fantasy Library</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="library.html" class="nav-link">Library</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="main" class="container">
+    <section class="hero">
+      <!-- inline SVG used so the project runs without external image files -->
+      <div class="hero-left">
+        <h2 class="highlighted-text">A curated collection of Souls‑like adventures</h2>
+        <p>
+          Browse lore-rich, challenging games inspired by dark fantasy aesthetics.
+          This demo fulfills the CSS assignment requirements (selectors, typography,
+          box-model, forms, image styling, pseudo-elements, transitions).
+        </p>
+        <a class="cta-button" href="library.html">Explore Library</a>
+      </div>
+      <div class="hero-right">
+        <img class="hero-image circular" src='data:image/svg+xml;utf8,
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+          <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="%23422b21"/><stop offset="1" stop-color="%23000000"/></linearGradient></defs>
+          <rect width="100%" height="100%" fill="url(%23g)"/>
+          <g fill="%23f6e6d6" font-family="serif" font-size="36" text-anchor="middle">
+            <text x="200" y="200">EMBERS</text>
+          </g>
+        </svg>' alt="Embers emblem" />
+      </div>
+    </section>
+
+    <section id="features" class="cards">
+      <article class="card">
+        <h3>Curated Picks</h3>
+        <p>Hand-picked titles with deep lore, handcrafted difficulty, and memorable bosses.</p>
+      </article>
+
+      <article class="card">
+        <h3>Community Reviews</h3>
+        <p>Users can rate games and share tips for tackling tough encounters.</p>
+      </article>
+
+      <article class="card">
+        <h3>Guides & Lore</h3>
+        <p>Strategy guides, build ideas, and lore deep-dives for the observant player.</p>
+      </article>
+    </section>
+
+    <section id="about" class="section-box">
+      <h2>About This Project</h2>
+      <p>This sample site demonstrates CSS features required by the assignment.</p>
+      <ul>
+        <li>Selectors: element, class, id, descendant, pseudo-elements</li>
+        <li>Typography: custom font stacks and readable sizes</li>
+        <li>Transitions, hover effects, form styling, and layout using rem/%/px</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Team: Team Emberfall — Members: Artemis Black, Dorian Vale</p>
+  </footer>
 </body>
 </html>
